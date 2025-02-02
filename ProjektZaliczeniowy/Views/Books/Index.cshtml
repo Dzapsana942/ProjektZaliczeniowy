@@ -1,0 +1,16 @@
+﻿@model IEnumerable<ProjektZaliczeniowy.Models.Book>
+
+@{
+    ViewData["Title"] = "Lista książek";
+}
+
+<h1>Lista książek</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Dodaj nową książkę</a>
+</p>
+
+<!-- Użycie PartialView -->
+<partial name="_BooksListPartial" model="Model" />
+
+

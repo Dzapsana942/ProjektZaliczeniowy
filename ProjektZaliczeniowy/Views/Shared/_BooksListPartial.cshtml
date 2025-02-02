@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ProjektZaliczeniowy.Models.Book>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th><i class="fas fa-book"></i> Tytuł</th>
+            <th><i class="fas fa-user"></i> Autor</th>
+            <th><i class="fas fa-barcode"></i> ISBN</th>
+            <th><i class="fas fa-calendar-alt"></i> Rok</th>
+            <th><i class="fas fa-check-circle"></i> Dostępność</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Author</td>
+                <td>@item.ISBN</td>
+                <td>@item.Year</td>
+                <td>@(item.IsAvailable ? "Tak" : "Nie")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edytuj</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
