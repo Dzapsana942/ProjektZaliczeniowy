@@ -19,14 +19,12 @@ namespace ProjektZaliczeniowy.Controllers
             _context = context;
         }
 
-        // GET: api/ReadersApi
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Reader>>> GetReaders()
         {
             return await _context.Readers.ToListAsync();
         }
 
-        // GET: api/ReadersApi/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Reader>> GetReader(int id)
         {
@@ -36,7 +34,6 @@ namespace ProjektZaliczeniowy.Controllers
             return reader;
         }
 
-        // POST: api/ReadersApi
         [HttpPost]
         public async Task<ActionResult<Reader>> PostReader(Reader reader)
         {
@@ -45,7 +42,7 @@ namespace ProjektZaliczeniowy.Controllers
             return CreatedAtAction(nameof(GetReader), new { id = reader.Id }, reader);
         }
 
-        // PUT: api/ReadersApi/5
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PutReader(int id, Reader reader)
         {
@@ -66,7 +63,7 @@ namespace ProjektZaliczeniowy.Controllers
             return NoContent();
         }
 
-        // DELETE: api/ReadersApi/5
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteReader(int id)
         {

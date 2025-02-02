@@ -4943,3 +4943,143 @@ INNER JOIN "Readers" AS "r" ON "l"."ReaderId" = "r"."Id"
 2025-02-02 21:39:53.560 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/Loans - 200 null text/html; charset=utf-8 7.3019ms
 2025-02-02 21:39:53.570 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - null null
 2025-02-02 21:39:53.570 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 0.1604ms
+2025-02-02 22:53:30.172 +01:00 [INF] User profile is available. Using 'C:\Users\Roksa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-02 22:53:35.923 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedName_0='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."ConcurrencyStamp", "a"."Name", "a"."NormalizedName"
+FROM "AspNetRoles" AS "a"
+WHERE "a"."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-02-02 22:53:35.988 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."ConcurrencyStamp", "a"."Name", "a"."NormalizedName"
+FROM "AspNetRoles" AS "a"
+WHERE "a"."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-02-02 22:53:36.000 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedEmail_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-02-02 22:53:36.233 +01:00 [INF] Now listening on: http://localhost:5192
+2025-02-02 22:53:36.333 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:53:36.334 +01:00 [INF] Hosting environment: Development
+2025-02-02 22:53:36.334 +01:00 [INF] Content root path: C:\Users\Roksa\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy
+2025-02-02 22:53:36.802 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/ - null null
+2025-02-02 22:53:37.496 +01:00 [INF] Żądanie: GET /
+2025-02-02 22:53:37.508 +01:00 [INF] Executing endpoint 'ProjektZaliczeniowy.Controllers.HomeController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:53:37.522 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjektZaliczeniowy.Controllers.HomeController (ProjektZaliczeniowy).
+2025-02-02 22:53:37.534 +01:00 [INF] Executing ViewResult, running view Index.
+2025-02-02 22:53:54.948 +01:00 [INF] User profile is available. Using 'C:\Users\Roksa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-02 22:53:56.192 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedName_0='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."ConcurrencyStamp", "a"."Name", "a"."NormalizedName"
+FROM "AspNetRoles" AS "a"
+WHERE "a"."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-02-02 22:53:56.261 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."ConcurrencyStamp", "a"."Name", "a"."NormalizedName"
+FROM "AspNetRoles" AS "a"
+WHERE "a"."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-02-02 22:53:56.273 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedEmail_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-02-02 22:53:56.411 +01:00 [INF] Now listening on: http://localhost:5192
+2025-02-02 22:53:56.505 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 22:53:56.506 +01:00 [INF] Hosting environment: Development
+2025-02-02 22:53:56.506 +01:00 [INF] Content root path: C:\Users\Roksa\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy
+2025-02-02 22:53:56.719 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/ - null null
+2025-02-02 22:53:56.885 +01:00 [INF] Żądanie: GET /
+2025-02-02 22:53:56.903 +01:00 [INF] Executing endpoint 'ProjektZaliczeniowy.Controllers.HomeController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:53:56.920 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjektZaliczeniowy.Controllers.HomeController (ProjektZaliczeniowy).
+2025-02-02 22:53:56.932 +01:00 [INF] Executing ViewResult, running view Index.
+2025-02-02 22:53:57.037 +01:00 [INF] Executed ViewResult - view Index executed in 107.1507ms.
+2025-02-02 22:53:57.038 +01:00 [INF] Executed action ProjektZaliczeniowy.Controllers.HomeController.Index (ProjektZaliczeniowy) in 117.1305ms
+2025-02-02 22:53:57.038 +01:00 [INF] Executed endpoint 'ProjektZaliczeniowy.Controllers.HomeController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:53:57.044 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/ProjektZaliczeniowy.styles.css?v=QKqAgh09B9bHRd_MChJuI1W-M97AzUFzcfeR8gBvWns - null null
+2025-02-02 22:53:57.044 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-02-02 22:53:57.045 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/ - 200 null text/html; charset=utf-8 335.2387ms
+2025-02-02 22:53:57.047 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:53:57.047 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/lib/jquery/dist/jquery.min.js - null null
+2025-02-02 22:53:57.048 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-02-02 22:53:57.048 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-02-02 22:53:57.049 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 2.6335ms
+2025-02-02 22:53:57.052 +01:00 [INF] The file /css/site.css was not modified
+2025-02-02 22:53:57.052 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-02-02 22:53:57.052 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-02-02 22:53:57.053 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-02-02 22:53:57.053 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 4.7393ms
+2025-02-02 22:53:57.053 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 4.5122ms
+2025-02-02 22:53:57.053 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/lib/jquery/dist/jquery.min.js - 304 null text/javascript 5.2282ms
+2025-02-02 22:53:57.053 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 8.7607ms
+2025-02-02 22:53:57.055 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-02-02 22:53:57.056 +01:00 [INF] The file /js/site.js was not modified
+2025-02-02 22:53:57.057 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 1.5993ms
+2025-02-02 22:53:57.063 +01:00 [INF] Sending file. Request path: '/ProjektZaliczeniowy.styles.css'. Physical path: 'C:\Users\Roksa\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\net8.0\scopedcss\bundle\ProjektZaliczeniowy.styles.css'
+2025-02-02 22:53:57.063 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/ProjektZaliczeniowy.styles.css?v=QKqAgh09B9bHRd_MChJuI1W-M97AzUFzcfeR8gBvWns - 200 1137 text/css 19.2045ms
+2025-02-02 22:53:57.064 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_vs/browserLink - null null
+2025-02-02 22:53:57.108 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.7648ms
+2025-02-02 22:53:57.169 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/favicon.ico - null null
+2025-02-02 22:53:57.176 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Roksa\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\wwwroot\favicon.ico'
+2025-02-02 22:53:57.178 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/favicon.ico - 200 5430 image/x-icon 9.1357ms
+2025-02-02 22:53:58.618 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/Books - null null
+2025-02-02 22:53:58.625 +01:00 [INF] Żądanie: GET /Books
+2025-02-02 22:53:58.630 +01:00 [INF] Executing endpoint 'ProjektZaliczeniowy.Controllers.BooksController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:53:58.639 +01:00 [INF] Route matched with {action = "Index", controller = "Books", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjektZaliczeniowy.Controllers.BooksController (ProjektZaliczeniowy).
+2025-02-02 22:53:58.698 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."Author", "b"."ISBN", "b"."IsAvailable", "b"."Title", "b"."Year"
+FROM "Books" AS "b"
+2025-02-02 22:53:58.720 +01:00 [INF] Executing ViewResult, running view Index.
+2025-02-02 22:53:58.746 +01:00 [INF] Executed ViewResult - view Index executed in 26.2269ms.
+2025-02-02 22:53:58.746 +01:00 [INF] Executed action ProjektZaliczeniowy.Controllers.BooksController.Index (ProjektZaliczeniowy) in 107.1926ms
+2025-02-02 22:53:58.746 +01:00 [INF] Executed endpoint 'ProjektZaliczeniowy.Controllers.BooksController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:53:58.749 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/Books - 200 null text/html; charset=utf-8 130.5569ms
+2025-02-02 22:53:58.761 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:53:58.761 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_vs/browserLink - null null
+2025-02-02 22:53:58.761 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 0.466ms
+2025-02-02 22:53:58.776 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.1061ms
+2025-02-02 22:53:59.637 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/Readers - null null
+2025-02-02 22:53:59.640 +01:00 [INF] Żądanie: GET /Readers
+2025-02-02 22:53:59.645 +01:00 [INF] Executing endpoint 'ProjektZaliczeniowy.Controllers.ReadersController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:53:59.651 +01:00 [INF] Route matched with {action = "Index", controller = "Readers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjektZaliczeniowy.Controllers.ReadersController (ProjektZaliczeniowy).
+2025-02-02 22:53:59.671 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."Id", "r"."Email", "r"."FirstName", "r"."LastName", "r"."PhoneNumber"
+FROM "Readers" AS "r"
+2025-02-02 22:53:59.684 +01:00 [INF] Executing ViewResult, running view Index.
+2025-02-02 22:53:59.705 +01:00 [INF] Executed ViewResult - view Index executed in 21.2763ms.
+2025-02-02 22:53:59.705 +01:00 [INF] Executed action ProjektZaliczeniowy.Controllers.ReadersController.Index (ProjektZaliczeniowy) in 53.8722ms
+2025-02-02 22:53:59.705 +01:00 [INF] Executed endpoint 'ProjektZaliczeniowy.Controllers.ReadersController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:53:59.705 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/Readers - 200 null text/html; charset=utf-8 68.533ms
+2025-02-02 22:53:59.716 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_vs/browserLink - null null
+2025-02-02 22:53:59.716 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:53:59.716 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 0.3449ms
+2025-02-02 22:53:59.720 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.8741ms
+2025-02-02 22:54:00.899 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/Loans - null null
+2025-02-02 22:54:00.901 +01:00 [INF] Żądanie: GET /Loans
+2025-02-02 22:54:00.903 +01:00 [INF] Executing endpoint 'ProjektZaliczeniowy.Controllers.LoansController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:54:00.906 +01:00 [INF] Route matched with {action = "Index", controller = "Loans", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjektZaliczeniowy.Controllers.LoansController (ProjektZaliczeniowy).
+2025-02-02 22:54:00.961 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."Id", "l"."BookId", "l"."LoanDate", "l"."ReaderId", "l"."ReturnDate", "b"."Id", "b"."Author", "b"."ISBN", "b"."IsAvailable", "b"."Title", "b"."Year", "r"."Id", "r"."Email", "r"."FirstName", "r"."LastName", "r"."PhoneNumber"
+FROM "Loans" AS "l"
+INNER JOIN "Books" AS "b" ON "l"."BookId" = "b"."Id"
+INNER JOIN "Readers" AS "r" ON "l"."ReaderId" = "r"."Id"
+2025-02-02 22:54:00.984 +01:00 [INF] Executing ViewResult, running view Index.
+2025-02-02 22:54:01.000 +01:00 [INF] Executed ViewResult - view Index executed in 15.8522ms.
+2025-02-02 22:54:01.000 +01:00 [INF] Executed action ProjektZaliczeniowy.Controllers.LoansController.Index (ProjektZaliczeniowy) in 93.0696ms
+2025-02-02 22:54:01.000 +01:00 [INF] Executed endpoint 'ProjektZaliczeniowy.Controllers.LoansController.Index (ProjektZaliczeniowy)'
+2025-02-02 22:54:01.000 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/Loans - 200 null text/html; charset=utf-8 101.0574ms
+2025-02-02 22:54:01.011 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 22:54:01.012 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/_vs/browserLink - null null
+2025-02-02 22:54:01.012 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 0.1875ms
+2025-02-02 22:54:01.016 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.3368ms
+2025-02-02 22:54:02.201 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5192/api/BooksApi - null null
+2025-02-02 22:54:02.203 +01:00 [INF] Żądanie: GET /api/BooksApi
+2025-02-02 22:54:02.203 +01:00 [INF] Executing endpoint 'ProjektZaliczeniowy.Controllers.BooksApiController.GetBooks (ProjektZaliczeniowy)'
+2025-02-02 22:54:02.217 +01:00 [INF] Route matched with {action = "GetBooks", controller = "BooksApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProjektZaliczeniowy.Models.Book]]] GetBooks() on controller ProjektZaliczeniowy.Controllers.BooksApiController (ProjektZaliczeniowy).
+2025-02-02 22:54:02.222 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."Author", "b"."ISBN", "b"."IsAvailable", "b"."Title", "b"."Year"
+FROM "Books" AS "b"
+2025-02-02 22:54:02.236 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProjektZaliczeniowy.Models.Book, ProjektZaliczeniowy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-02 22:54:02.248 +01:00 [INF] Executed action ProjektZaliczeniowy.Controllers.BooksApiController.GetBooks (ProjektZaliczeniowy) in 31.2241ms
+2025-02-02 22:54:02.248 +01:00 [INF] Executed endpoint 'ProjektZaliczeniowy.Controllers.BooksApiController.GetBooks (ProjektZaliczeniowy)'
+2025-02-02 22:54:02.248 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5192/api/BooksApi - 200 null application/json; charset=utf-8 47.7246ms

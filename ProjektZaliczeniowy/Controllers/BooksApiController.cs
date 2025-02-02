@@ -19,14 +19,12 @@ namespace ProjektZaliczeniowy.Controllers
             _context = context;
         }
 
-        // GET: api/BooksApi
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
         {
             return await _context.Books.ToListAsync();
         }
 
-        // GET: api/BooksApi/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Book>> GetBook(int id)
         {
@@ -40,7 +38,6 @@ namespace ProjektZaliczeniowy.Controllers
             return book;
         }
 
-        // POST: api/BooksApi
         [HttpPost]
         public async Task<ActionResult<Book>> PostBook(Book book)
         {
@@ -50,7 +47,6 @@ namespace ProjektZaliczeniowy.Controllers
             return CreatedAtAction(nameof(GetBook), new { id = book.Id }, book);
         }
 
-        // PUT: api/BooksApi/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutBook(int id, Book book)
         {
@@ -80,7 +76,6 @@ namespace ProjektZaliczeniowy.Controllers
             return NoContent();
         }
 
-        // DELETE: api/BooksApi/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBook(int id)
         {

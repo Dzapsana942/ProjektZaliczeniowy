@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjektZaliczeniowy.Controllers
 {
-    [Authorize] // 🔐 Domyślnie tylko zalogowani użytkownicy mają dostęp do kontrolera
+    [Authorize] 
     public class ReadersController : Controller
     {
         private readonly LibraryContext _context;
@@ -17,14 +17,12 @@ namespace ProjektZaliczeniowy.Controllers
             _context = context;
         }
 
-        // 🔓 Każdy użytkownik (nawet niezalogowany) może przeglądać listę czytelników
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Readers.ToListAsync());
         }
 
-        // 🔐 Tylko administrator może dodawać nowych czytelników
         [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
@@ -45,7 +43,6 @@ namespace ProjektZaliczeniowy.Controllers
             return View(reader);
         }
 
-        // 🔐 Edytowanie dostępne tylko dla administratora
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -71,7 +68,6 @@ namespace ProjektZaliczeniowy.Controllers
             return View(reader);
         }
 
-        // 🔐 Usuwanie dostępne tylko dla administratora
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
