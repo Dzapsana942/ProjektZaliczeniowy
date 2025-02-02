@@ -1,0 +1,549 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\projektzaliczeniowy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\projektzaliczeniowy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D0DA44-215B-4F13-A10B-33DAB49E308D}|ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy.tests\\projektzaliczeniowy.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9D0DA44-215B-4F13-A10B-33DAB49E308D}|ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj|solutionrelative:projektzaliczeniowy.tests\\projektzaliczeniowy.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D0DA44-215B-4F13-A10B-33DAB49E308D}|ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D0DA44-215B-4F13-A10B-33DAB49E308D}|ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj|solutionrelative:projektzaliczeniowy.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D0DA44-215B-4F13-A10B-33DAB49E308D}|ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy.tests\\services\\libraryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D0DA44-215B-4F13-A10B-33DAB49E308D}|ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj|solutionrelative:projektzaliczeniowy.tests\\services\\libraryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\controllers\\loansapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\controllers\\loansapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\controllers\\readersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\controllers\\readersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\loans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\loans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\shared\\_loanslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\shared\\_loanslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\shared\\_bookslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\shared\\_bookslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\readers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\readers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\shared\\_readerslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\shared\\_readerslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\logs\\app-log20250202.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\logs\\app-log20250202.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\views\\loans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\views\\loans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\migrations\\20250202132629_addloantable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\migrations\\20250202132629_addloantable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\migrations\\20250202130950_addreadertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\migrations\\20250202130950_addreadertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\migrations\\20250202122746_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\migrations\\20250202122746_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|c:\\users\\roksa\\source\\repos\\projektzaliczeniowy\\projektzaliczeniowy\\migrations\\20250202164629_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41135733-B3D7-489E-96ED-E168BDA18FA0}|ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj|solutionrelative:projektzaliczeniowy\\migrations\\20250202164629_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1002030240:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Controllers\\LoansController.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Controllers\\LoansController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:34:30.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjektZaliczeniowy.Tests",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj",
+              "RelativeToolTip": "ProjektZaliczeniowy.Tests\\ProjektZaliczeniowy.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-02T20:23:09.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T19:43:32.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibraryServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy.Tests\\Services\\LibraryServiceTests.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy.Tests\\Services\\LibraryServiceTests.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy.Tests\\Services\\LibraryServiceTests.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy.Tests\\Services\\LibraryServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T19:45:44.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoansApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\LoansApiController.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Controllers\\LoansApiController.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\LoansApiController.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Controllers\\LoansApiController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:49:46.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjektZaliczeniowy.csproj",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj",
+              "RelativeToolTip": "ProjektZaliczeniowy\\ProjektZaliczeniowy.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-02T12:20:33.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Data\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Data\\LibraryContext.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Data\\LibraryContext.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Data\\LibraryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:21:01.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Models\\Book.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Models\\Book.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:20:08.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Models\\Loan.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Models\\Loan.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Models\\Loan.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Models\\Loan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:25:32.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reader.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Models\\Reader.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Models\\Reader.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Models\\Reader.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Models\\Reader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:08:39.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Program.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Program.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Program.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwD4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:22:38.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReadersApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\ReadersApiController.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Controllers\\ReadersApiController.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\ReadersApiController.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Controllers\\ReadersApiController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:48:40.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReadersController.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\ReadersController.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Controllers\\ReadersController.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\ReadersController.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Controllers\\ReadersController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:17:39.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BooksApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\BooksApiController.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Controllers\\BooksApiController.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\BooksApiController.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Controllers\\BooksApiController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:14:56.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:47:38.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T17:08:59.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Loans\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Loans\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Loans\\Index.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Loans\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T17:18:44.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_LoansListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_LoansListPartial.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Shared\\_LoansListPartial.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_LoansListPartial.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Shared\\_LoansListPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T17:18:30.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Readers\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Readers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Readers\\Index.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Readers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T17:17:58.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_BooksListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_BooksListPartial.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Shared\\_BooksListPartial.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_BooksListPartial.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Shared\\_BooksListPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T17:08:44.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ReadersListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_ReadersListPartial.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Shared\\_ReadersListPartial.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_ReadersListPartial.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Shared\\_ReadersListPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T17:17:43.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T13:21:13.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T16:51:18.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250202164629_AddIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Migrations\\20250202164629_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Migrations\\20250202164629_AddIdentityTables.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Migrations\\20250202164629_AddIdentityTables.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Migrations\\20250202164629_AddIdentityTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T16:46:29.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "app-log20250202.txt",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\logs\\app-log20250202.txt",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\logs\\app-log20250202.txt",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\logs\\app-log20250202.txt",
+              "RelativeToolTip": "ProjektZaliczeniowy\\logs\\app-log20250202.txt",
+              "ViewState": "AgIAAGYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-02T16:04:03.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Middleware\\RequestLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Middleware\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:06:23.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\appsettings.json",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\appsettings.json",
+              "RelativeToolTip": "ProjektZaliczeniowy\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-02T12:21:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Loans\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Views\\Loans\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Views\\Loans\\Create.cshtml",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Views\\Loans\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T13:39:13.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250202132629_AddLoanTable.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Migrations\\20250202132629_AddLoanTable.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Migrations\\20250202132629_AddLoanTable.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Migrations\\20250202132629_AddLoanTable.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Migrations\\20250202132629_AddLoanTable.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:26:29.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250202130950_AddReaderTable.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Migrations\\20250202130950_AddReaderTable.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Migrations\\20250202130950_AddReaderTable.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Migrations\\20250202130950_AddReaderTable.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Migrations\\20250202130950_AddReaderTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:09:51.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-02T12:51:03.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250202122746_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Migrations\\20250202122746_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProjektZaliczeniowy\\Migrations\\20250202122746_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Roksa\\source\\repos\\ProjektZaliczeniowy\\ProjektZaliczeniowy\\Migrations\\20250202122746_InitialCreate.cs",
+              "RelativeToolTip": "ProjektZaliczeniowy\\Migrations\\20250202122746_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:27:46.522Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

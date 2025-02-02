@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ProjektZaliczeniowy.Models.Loan>
+
+@{
+    ViewData["Title"] = "Lista wypożyczeń";
+}
+
+<h1>Lista wypożyczeń</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Dodaj nowe wypożyczenie</a>
+</p>
+
+<!-- Użycie PartialView -->
+<partial name="_LoansListPartial" model="Model" />

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ProjektZaliczeniowy.Models.Loan>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Książka</th>
+            <th>Czytelnik</th>
+            <th>Data wypożyczenia</th>
+            <th>Data zwrotu</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Book.Title</td>
+                <td>@item.Reader.LastName</td>
+                <td>@item.LoanDate.ToShortDateString()</td>
+                <td>@(item.ReturnDate.HasValue ? item.ReturnDate.Value.ToShortDateString() : "Brak")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edytuj</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
